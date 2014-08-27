@@ -36,7 +36,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
 
   version :thumb do
     process :rails_admin_crop
-    process :resize_to_fill: [500,320]
+    process resize_to_fill: [500,320]
   end
 
 end
@@ -133,6 +133,7 @@ Any help is encouraged. Here are some ways you can contribute:
 * [Alan Rosin Sikora](https://github.com/alansikora) ([alansikora](https://github.com/alansikora))
 * [cec](https://github.com/cec)
 * [Alex Chien](https://github.com/AlexChien)
+* [Mitsuhiro Shibuya]([mshibuya](https://github.com/mshibuya))
 
 ### And ... ###
 
